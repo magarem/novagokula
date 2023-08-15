@@ -1,0 +1,86 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Eventos from '../components/Eventos.jsx' 
+import { log } from 'astro/dist/core/logger/core';
+const eventos = [
+  {
+    id: 1,
+    title: 'Explore o Universo Vegano: Participe do Nosso Evento Exclusivo!',
+    body: 'É com imensa alegria que convidamos você a participar de um evento extraordinário em nosso Restaurante Vegano! Estamos entusiasmados em compartilhar com você uma experiência única e envolvente, dedicada a explorar e celebrar o maravilhoso universo vegano. Prepare-se para embarcar em uma jornada gastronômica inigualável, repleta de sabores surpreendentes e descobertas deliciosas. Nosso evento vegano oferecerá um verdadeiro banquete para os sentidos, onde pratos criativos e inspiradores ganharão vida diante dos seus olhos. Nossos talentosos chefs, conhecidos por suas habilidades culinárias excepcionais, prepararão um cardápio especial e exclusivo, cuidadosamente elaborado para encantar até mesmo os paladares mais exigentes.',
+    href: '#',
+    imageSrc: '/images/eventos/confrariavegana_evento (1).jpeg',
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: '$35',
+    color: 'Black',
+  },
+  {
+    id: 2,
+    title: 'Evento2',
+    body: 'Evento2',
+    href: '#',
+    imageSrc: '/images/eventos/Formação de Yoga 2022 b.jpg',
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: '$35',
+    color: 'Black',
+  },
+  {
+    id: 3,
+    title: 'Evento3',
+    body: 'sdjfh djfhsdjkf hsdkjf hsdkjfhsdfkjdsh fkjdsfh dkj',
+    href: '#',
+	imageSrc: '/images/eventos/confrariavegana_evento (1).jpeg',
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: '$35',
+    color: 'Black',
+  },
+  {
+    id: 4,
+    title: '44444',
+    body: 'Para todos!!',
+    href: '#',
+    imageSrc: '/images/eventos/confrariavegana_evento (1).jpeg',
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: '$35',
+    color: 'Black',
+  },
+  {
+    id: 5,
+    title: '5555',
+    body: 'Evento2',
+    href: '#',
+    imageSrc: '/images/eventos/Formação de Yoga 2022 b.jpg',
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: '$35',
+    color: 'Black',
+  },
+  {
+    id: 6,
+    title: '6666',
+    body: 'sdjfh djfhsdjkf hsdkjf hsdkjfhsdfkjdsh fkjdsfh dkj',
+    href: '#',
+	imageSrc: '/images/eventos/confrariavegana_evento (1).jpeg',
+    imageAlt: "Front of men's Basic Tee in black.",
+    price: '$35',
+    color: 'Black',
+  }
+]
+
+const id = Astro.url.searchParams.get('id')! || '1';
+console.log(11, id)
+---
+<Layout title="Welcome to Astro.">
+    <main>
+        <div style="height: 300px; background-color: rgba(0,0,255,.1) shadow">
+            <img src="images/maxresdefault.jpg" style="width: 100%; height: 300px; "  alt=""/>
+        </div>
+
+        <section class="pt-0 products _section-padding">
+            <div class="container">
+                <div class="row">
+                    <Eventos sessiontitle="Eventos" items={eventos} mainid={id} />
+                </div>
+            </div>
+        </section>
+
+    </main>
+</Layout>
