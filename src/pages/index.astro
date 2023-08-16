@@ -76,7 +76,21 @@ const slideshowItems = [
 	{title: 'Foto1', body: '...',img: 'images/slideshow/slide-1.jpg'},
   ]
 ---
+<style>
+  h1 {
+    font-family: 'Crimson Pro', serif;
+    font-size: 48px;
+  }
+  .h2 {
+    font-family: 'Crimson Pro', serif;
+    font-size: 10px;
+  }
 
+  .tipo1 {
+    font-family: Georgia, serif !important;
+    font-size: 30px !important;
+  }
+</style>
 <Layout title="Nova Gokula">
 	<main>
 		<Slideshow items={slideshowItems} />
@@ -97,23 +111,24 @@ const slideshowItems = [
               </div>
           </div>
           <div class="row mb-5"></div>
-          <div class="row " style="background-color: #DDD8CB ">
-            <!-- <div class="col-12" >     -->
-              <!-- <div class="mr-3"> -->
-                <div class="col-md-2">
-                  <img class="rounded img-fluid mt-2" src="/images/Prabhupada-1.jpg" _style="width: 180px; ">
-                </div>
-                <div class="col-md-10">
-                  <h4 class="text-secondary">Sobre o Acharya-fundador</h4>
-                  <p class="text-secondary">Autor de mais de sessenta volumes de traduções e estudos sobre os clássicos
-                    da India, A.C. Bhaktivedanta Swami Prabhupada, acharya-fundador da
-                    Sociedade Internacional para a Consciência de Krishna, foi o maior difusor da
-                    sabedoria de bhakti-yoga da história, tendo viajado o equivalente a doze
-                    voltas ao mundo ensinando a variados públicos o conhecimento do
-                    Bhagavad-gita e obras similares.</p>
-                </div>
-            <!-- </div> -->
-            <!-- </div> -->
+          <div class="row" style="background-color: #DDD8CB ">
+          <div class="container" > 
+              <div class="row">
+                <!-- <div class="mr-3"> -->
+                  <div class="col-md-2 p-2">
+                    <img class="rounded img-fluid" src="/images/Prabhupada-1.jpg" _style="width: 180px; ">
+                  </div>
+                  <div class="col-md-10">
+                    <p class="tipo1 mb-0">Sobre o Acharya-fundador</p>
+                    <p class="text-secondary">Autor de mais de sessenta volumes de traduções e estudos sobre os clássicos
+                      da India, A.C. Bhaktivedanta Swami Prabhupada, acharya-fundador da
+                      Sociedade Internacional para a Consciência de Krishna, foi o maior difusor da
+                      sabedoria de bhakti-yoga da história, tendo viajado o equivalente a doze
+                      voltas ao mundo ensinando a variados públicos o conhecimento do
+                      Bhagavad-gita e obras similares.</p>
+                  </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
