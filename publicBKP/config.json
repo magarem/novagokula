@@ -1,0 +1,77 @@
+{
+    "topbar": {
+        "logo": {
+            "img": "/img/logo2.png",
+            "link": "/home"
+        },
+        "menu": [
+            {"name": "Home", "link": "/home", "sub": null},
+            {"name": "Sobre", "link": "", "sub": 
+                [
+                    {"name": "Quem somos", "link": "/masterpage/content:sobre:about.md", "sub": null},
+                    {"name": "História", "link": "/masterpage/content:sobre:historia.md", "sub": null},
+                    {"name": "O fundador", "link": "/masterpage/content:sobre:acharyadeva.md", "sub": null},
+                    {"name": "Srila Prabhupada", "link": "/masterpage/content:sobre:prabhupada.md", "sub": null},
+                    {"name": "ISKCON", "link": "/masterpage/content:sobre:instituicao.md", "sub": null},
+                    {"name": "O Mantra", "link": "/masterpage/content:sobre:mahamantra.md", "sub": null},
+                    {"name": "Filosofia", "link": "/masterpage/content:sobre:filosofia.md", "sub": null},
+                    {"name": "Livros", "link": "/masterpage/content:livros:_index.md","sub":null}
+                ]
+            },
+            
+            {"name": "Atrativos", "link": "", "sub": 
+                [
+                    {"name": "Os Templos", "link": "/masterpage/content:templos:_index.md", "sub": null},
+                    {"name": "Hospedagem", "link": "/masterpage/content:hospedagem:_index.md", "sub": null},
+                    {"name": "Alimentação", "link": "/masterpage/content:alimentacao:_index.md", "sub": null}
+                ]
+            }, 
+            {"name": "Eventos", "link": "/masterpage/content:eventos:_index.md","sub":null},
+            {"name": "Como chegar", "link": "/masterpage/content:comochegar.md","sub": null},       
+            {"name": "Contato", "link": "/masterpage/content:contact.md","sub": null},
+            {"name": "Quero doar", "link": "/masterpage/content:querodoar.md", "type": "button", "sub": null}
+        ]
+    },
+    "footer": {
+        "box1": {
+            "title": "Srila Prabhupada",
+            "img": "/img/vedabase-logo.svg",
+            "body": "Sua Divina Graça A.C. Bhaktivedanta Swami Prabhupada Mestre Fundador da Sociedade Internacional para a Consciência de Krishna",
+            "link": {
+                "label": "Saiba mais",
+                "target": "/content:prabhupada.md"
+            }
+        },
+        "box2": {
+            "title": "Mídias sociais",
+            "body": "Conecte-se conosco nas redes sociais para as últimas novidades, eventos exclusivos e inspiração. Siga-nos e faça parte de nossa comunidade. Juntos, construímos conexões fortes e significativas.",
+            "links":{
+                "facebook": "https://www.facebook.com/FazendaNovaGokula",
+                "instagram": "https://www.instagram.com/novagokula/",
+                "youtube": "https://www.youtube.com/c/FazendaNovaGokulaNG",
+                "tiktok": "https://www.tiktok.com/@novagokula"
+            }
+        },
+        "box3": {
+            "title": "Endereço",
+            "img": "",
+            "body": "Estrada Abílio José de Almeida S/N<br/>Bairro do Riberão Grande<br/>Pindamonhangaba/SP<br/>Brasil",
+            "link": {
+                "label": "Como chegar",
+                "target": "/content:comochegar.md"
+            }
+        },
+        "box4": {
+            "title": "Contato",
+            "img": "",
+            "body": "Entre em contato conosco para esclarecer dúvidas ou enviar sugestões.",
+            "link": {
+                "label": "Entre em contato",
+                "target": "/content:contact.md"
+            }
+        },
+        "copyright": {
+            "body": "© Copyright 2024 | Todos os direitos reservados novagokula.com.br"
+        }
+    }
+}
