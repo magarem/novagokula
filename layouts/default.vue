@@ -52,12 +52,17 @@ import { ModalsContainer } from 'vue-final-modal'
 const route = useRoute()
 console.log(route.name);
 const path=route.name||''
+
+const siteColors = {
+	h1: '#9f7d1e'
+}
 </script>
 <style lang="scss" >
 
 	:root {
 			// --main-bg-color: hwb(14 42% 4%);
-			--main-bg-color: #F5CCA0;
+			//--main-bg-color: #F5CCA0;
+			--main-bg-color: #FFFF;
 		}
 
 
@@ -75,7 +80,8 @@ const path=route.name||''
 	h1, h2, h3, h4, h5, p, li {
 		font-family: Montserrat;
 		// color: #fff;
-		color: #5a1b1b;
+		color: #9f7d1e;
+		color: v-bind(siteColors.h1);
 	}
 
 	h1 {
@@ -84,7 +90,7 @@ const path=route.name||''
 	
 	p, li {
 		font-size: 18px;
-		color: #3e3737;
+		color: #4f4848;
 	}
 
 	h2 {
@@ -100,7 +106,8 @@ const path=route.name||''
 	}
 
 	.bg {
-		background-color: #DBAE58;
+		// background-color: #DBAE58;
+		background-color: #F5F3F7;
 		_padding-bottom: 50px;
 		// background-color: #EBAA83;
 	}
@@ -111,7 +118,8 @@ const path=route.name||''
 		padding-top: 10px; 
 		padding-bottom: 8px; 
 		margin-bottom: 0px; 
-		background-color:#DBBE58; 
+		// background-color:#DBBE58; 
+		background-color:#EEEAE7; 
 		font-size: 15px;
 	}
 

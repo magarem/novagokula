@@ -12,7 +12,7 @@
 					<template v-for="item in navbar.menu">
 						<li class="nav-item" v-if="!item.sub">
 							<NuxtLink v-if="item?.type=='button'" class="nav-Link" :to="{ path: item.link, query: { id: item.query } } " >
-								<button type="button" class="btn btn-success p-1 px-2" style="margin-top: -3px;">{{ item.name }}</button>
+								<button type="button" class="btn btn-success p-1 px-2" style="margin-top: -3px; font-size: 14px;">{{ item.name }}</button>
 							</NuxtLink>
 							<NuxtLink v-else class="nav-Link" :to="{ path: item.link, query: { id: item.query } } " >{{ item.name }}</NuxtLink>
 						</li>
@@ -65,7 +65,7 @@
 		// background-color: rgba(211,151,88, 1) !important;
 		// background-color: red;
 		// background-color: #EBAA83;
-		background-color: #F5CCA0;
+		background-color: #E6B89C;
 	}
 
 

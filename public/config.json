@@ -34,7 +34,8 @@
             }, 
             {"name": "Eventos", "link": "/masterpage/content:eventos:_index.md","sub":null},
             {"name": "Como Chegar", "link": "/masterpage/content:comochegar.md","sub": null},       
-            {"name": "Contato", "link": "/masterpage/content:contact.md","sub": null}
+            {"name": "Contato", "link": "/masterpage/content:contact.md","sub": null},       
+            {"name": "Quero doar", "link": "/masterpage/content:querodoar.md","sub": null, "type": "button"}
         ]
     },
     "footer": {
@@ -44,7 +45,7 @@
             "body": "Sua Divina Graça A.C. Bhaktivedanta Swami Prabhupada Mestre Fundador da Sociedade Internacional para a Consciência de Krishna",
             "link": {
                 "label": "Saiba mais",
-                "target": "/content:prabhupada.md"
+                "target": "/masterpage/content:sobre:prabhupada.md"
             }
         },
         "box2": {
@@ -63,7 +64,7 @@
             "body": "Estrada Abílio José de Almeida S/N<br/>Bairro do Riberão Grande<br/>Pindamonhangaba/SP<br/>Brasil",
             "link": {
                 "label": "Como chegar",
-                "target": "/content:comochegar.md"
+                "target": "/masterpage/content:comochegar.md"
             }
         },
         "box4": {
@@ -72,7 +73,7 @@
             "body": "Entre em contato conosco para esclarecer dúvidas ou enviar sugestões.",
             "link": {
                 "label": "Entre em contato",
-                "target": "/content:contact.md"
+                "target": "/masterpage/content:contact.md"
             }
         },
         "copyright": {

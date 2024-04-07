@@ -18,16 +18,21 @@
 	</div>
 	<div class="row">
 		<div class="col-12">
-			<HomePrabhupada 
-				:refresh="componentsDataRefresh" 
-				file="content/home/prabhupada.md"
-				@click="go('content/home/prabhupada.md')"
-			/> 
+			<a href="/masterpage/content:sobre:prabhupada.md">
+				<HomePrabhupada 
+					:refresh="componentsDataRefresh" 
+					file="content/home/prabhupada.md"
+					@click="go('content/home/prabhupada.md')"
+				/> 
+			</a>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-12">
-			<img src="/upload/1712167630747.8315.jpg" />
+			<a href="/masterpage/content:sobre:1712167795985.md">
+				<img src="/upload/1712167630747.8315.jpg" />
+			</a>
+			
 		</div>
 	</div>
 	<div class="row">
@@ -58,7 +63,9 @@
 	<div class="row">
 		<div class="col-12">
 			<section _class="p-4" >
-				<img src="/img/doacao.png" style="width: 100%;"/>
+				<a href="/masterpage/content:querodoar.md">
+					<img src="/img/doacao.png" style="width: 100%;"/>
+				</a>
 			</section>
 		</div>
 	</div>
