@@ -53,9 +53,10 @@ const route = useRoute()
 console.log(route.name);
 const path=route.name||''
 
-const siteColors = {
-	h1: '#9f7d1e'
-}
+const siteColors_h1 = '#9f7d1e'
+
+
+
 </script>
 <style lang="scss" >
 
@@ -80,8 +81,8 @@ const siteColors = {
 	h1, h2, h3, h4, h5, p, li {
 		font-family: Montserrat;
 		// color: #fff;
-		color: #9f7d1e;
-		color: v-bind(siteColors.h1);
+		// color: #9f7d1e;
+		color: v-bind(siteColors_h1);
 	}
 
 	h1 {
