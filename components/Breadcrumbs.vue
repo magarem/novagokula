@@ -1,15 +1,17 @@
 <template>
-    <h5 class="bread text-left" > 
-        <router-link to="/home" >
-        Home
-        </router-link>
-        <router-link v-if="!id.split(':')[1].includes('.md')" :to="dirName.link" >
-        / {{ capitalizeFirstLetter(dirName.label) }}
-        </router-link>
-        <router-link v-if="!id.includes(':_index.md')" :to="'/' + id.replaceAll(':', '/')" >
-            / {{ capitalizeFirstLetter(getTitle(id).params_data.title) }}
-        </router-link>
-    </h5>
+    <div class="bred_bg">
+        <h5 class="container bread text-left" > 
+            <router-link to="/home" >
+            Home
+            </router-link>
+            <router-link v-if="!id.split(':')[1].includes('.md')" :to="dirName.link" >
+            / {{ capitalizeFirstLetter(dirName.label) }}
+            </router-link>
+            <router-link v-if="!id.includes(':_index.md')" :to="'/' + id.replaceAll(':', '/')" >
+                / {{ capitalizeFirstLetter(getTitle(id).params_data.title) }}
+            </router-link>
+        </h5>
+    </div>
 </template>
 <script setup>
 

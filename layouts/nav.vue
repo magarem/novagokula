@@ -65,7 +65,8 @@
 		// background-color: rgba(211,151,88, 1) !important;
 		// background-color: red;
 		// background-color: #EBAA83;
-		background-color: #E6B89C;
+		// background-color: #E6B89C;
+		background-color: #fad6c0;
 	}
 
 

@@ -30,6 +30,9 @@ export default defineNuxtConfig({
   server: {
     host: '0' // default: localhost
   },
+  devServer: {
+    port: 8000
+  },
   buildModules: [
     '@nuxtjs/ngrok','@nuxtjs/vuetify',
   ]

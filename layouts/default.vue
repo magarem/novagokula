@@ -113,9 +113,25 @@ const siteColors_h1 = '#9f7d1e'
 		// background-color: #EBAA83;
 	}
 		
+	// .bread {
+	// 	margin-top: 70px;
+	// 	padding-left: 3vw; 
+	// 	padding-top: 10px; 
+	// 	padding-bottom: 8px; 
+	// 	margin-bottom: 0px; 
+	// 	// background-color:#DBBE58; 
+	// 	background-color:#EEEAE7; 
+	// 	font-size: 15px;
+	// }
+
+	.bred_bg {
+		background-color:#EEEAE7; 
+	}
+	
 	.bread {
 		margin-top: 70px;
-		padding-left: 3vw; 
+		// padding-left: 25%;
+		// padding-right: 25%; 
 		padding-top: 10px; 
 		padding-bottom: 8px; 
 		margin-bottom: 0px; 

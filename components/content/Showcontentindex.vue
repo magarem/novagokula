@@ -112,7 +112,7 @@ onUnmounted(() => {
 const getContentIndex = (files) => {
     var rs = []
     files.map((x, index)=>{
-        if (index) {
+        
 
             let a = datax.value.filter(function (el) {
                 return el._id == x
@@ -127,7 +127,7 @@ const getContentIndex = (files) => {
                 _path: a[0]._path })
             }
 
-        }
+       
        
     })
     return rs //.map(item=>({id: item[0]._id, topimage: item[0].topimage, sideimage: item[0].sideimage, title: item[0].title, _path: item[0]._path }))
